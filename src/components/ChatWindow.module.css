@@ -1,0 +1,96 @@
+
+.chatWindow {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .chatHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #684271;
+    color: white;
+  }
+  
+  .chatBody {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .chatMessage {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .chatAvatar {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chatContent {
+    background-color: rgb(128, 96, 172);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .chatInputContainer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border-top: 1px solid #ddd; */
+    position: relative;
+  }
+  
+  .chatInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .uploadButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .uploadButton input[type='file'] {
+    display: none;
+  }
+  
+  .sendButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .chatFooter {
+    padding: 10px;
+    text-align: center;
+    background-color: #b9a2a27e;
+  }
+  
+  .chatButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .chatButton span {
+    font-size: 20px;
+    color: #684271;
+  }

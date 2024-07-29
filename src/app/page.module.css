@@ -5,6 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #13181f 100%);
 }
 
 .description {
@@ -126,6 +127,7 @@
   }
 }
 
+
 /* Mobile */
 @media (max-width: 700px) {
   .content {
@@ -228,3 +230,271 @@
     transform: rotate(0deg);
   }
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.question {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1em;
+}
+
+.form input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.form .send-button {
+  display: flex;
+  align-items: center;
+  background-color: #28a745;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.form .send-button img {
+  margin-right: 10px;
+}
+
+.form .send-button:hover {
+  background-color: #218838;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #13181f 0%, #1f2730 100%);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.question {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1em;
+  margin-right: 10px;
+  color: #d8d2d2;
+}
+
+.fileLabel {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.sendButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1.em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sendButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 700px) {
+  .inputGroup {
+    flex-direction: column;
+  }
+
+  .input {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .fileLabel {
+    margin-right: 0;
+  }
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #13181f 0%, #1f2730 100%);
+  min-height: 100vh;
+  color: #ffffff;
+}
+
+.question {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #2c3e50;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.inputContainer {
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 60px 10px 10px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #000000;
+}
+
+.iconButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconButton:first-of-type {
+  right: 40px;
+}
+
+.iconButton:last-of-type {
+  right: 10px;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.fileInput {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .input {
+    padding: 10px 40px 10px 10px;
+  }
+
+  .iconButton:first-of-type {
+    right: 30px;
+  }
+
+  .iconButton:last-of-type {
+    right: 10px;
+  }
+}
+
+
